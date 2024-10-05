@@ -36,7 +36,8 @@
     ],
     "persist": "portable",
     "checkver": {
-        "github": "https://github.com/ryujinx-mirror/ryujinx"
+        "github": "https://github.com/ryujinx-mirror/ryujinx",
+        "regex": "/releases/tag/(r\\w{7})"
     },
     "autoupdate": {
         "architecture": {
